@@ -8,7 +8,7 @@ from vector_store import VectorStore
 
 app = Flask(__name__)
 
-GEMINI_API_KEY = "AIzaSyBVMQv12v8ClTTfkBX7xghMyAAHRsio3_I"
+GEMINI_API_KEY = "API_KEY"
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY is not set. Please set it as an environment variable.")
 
